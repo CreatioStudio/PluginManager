@@ -1,0 +1,12 @@
+name: PluginReloader
+version: 1.0
+main: com.henryrenyz.reloader.Main
+api-version: 1.16
+prefix: PR
+author: HenryRenYz
+description: A simple plugin reloader for Bukkit, can reload plugins without reloading the entire server.
+
+commands:
+  pr:
+    description: Main command of PluginReloader
+    permission: pluginreloader.admin
